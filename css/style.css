@@ -1,0 +1,303 @@
+/* Colors:
+Palette 1:
+#ac7550
+#f5f3e7
+#545454
+#3f3f3f
+
+Palette 2:
+#1c4d4a
+#d9cfc6
+#718a97
+#b1bbc2
+#3a3a39
+#f8f6f4
+*/
+/* General */
+body {
+  background-color: #f8f6f4;
+}
+
+.row {
+  margin: 0;
+}
+
+.container-padding {
+  padding: 5% 10% 7%;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.top-right-float {
+  top: 0;
+  right: 0;
+  float: right;
+}
+
+.top-left-float {
+  top: 0;
+  left: 0;
+  float: left;
+}
+
+/* NavBar */
+.nav-item {
+  font-family: 'Aref Ruqaa', serif;
+  color: #1c4d4a;
+}
+
+.nav-item:hover {
+  color: #d9cfc6;
+}
+
+.toggler-icon {
+  color: #1c4d4a;
+}
+
+/* Title */
+.title-container {
+  background-image: url("../resources/header_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #1c4d4a;
+  width: 100%;
+  height: 0;
+  padding-top: 36.32%;
+  /* (img-height / img-width * container-width) = 40.32 with conatin */
+  position: relative;
+}
+
+.title-container-opacity {
+  background-color: #718a97;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.title-details-container {
+  width: 43%;
+  background-image: url("../resources/title_container.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.92;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  /* left:0; */
+  right: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main-title {
+  font-family: 'Aref Ruqaa', serif;
+  font-weight: 700;
+  font-size: 12vw;
+  color: #1c4d4a;
+}
+
+.sub-title {
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 2vw;
+  color: #b1bbc2;
+}
+
+/*.main-title {
+  font-family: 'Aref Ruqaa', serif;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #1c4d4a;
+}
+
+.sub-title {
+  font-family: 'Aref Ruqaa', serif;
+  color: #d9cfc6;
+} */
+/* Statistics */
+.statistics-container {
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-top: -5%;
+}
+
+.statistic-column {
+  padding: 15px;
+}
+
+.statistic-container {
+  background-color: #fbfaf9;
+  /* lighter than background */
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.statistic-icon {
+  color: #1c4d4a;
+  margin-bottom: 10px;
+}
+
+.statistic-count {
+  font-family: 'Markazi Text', serif;
+  font-size: 1.3rem;
+  color: #b1bbc2;
+}
+
+.statistic-title {
+  font-family: 'Markazi Text', serif;
+  font-size: 1.1rem;
+  color: #b1bbc2;
+  margin-bottom: 0;
+}
+
+/* About us */
+.about-title {
+  font-family: 'Aref Ruqaa', serif;
+  font-weight: 700;
+  font-size: 2.6rem;
+  color: #1c4d4a;
+}
+
+.about-description {
+  font-family: 'Markazi Text', serif;
+  font-size: 1.2rem;
+  color: #b1bbc2;
+  padding-right: 7%;
+}
+
+/* Services */
+.services-container {
+  background-color: #1c4d4a;
+}
+
+.service-container {
+  padding: 15px;
+  text-align: center;
+  border-radius: 15px;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #1c4d4a 50%, #f8f6f4 50%);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;
+}
+
+.service-container:hover {
+  background-position: 0 -100%;
+}
+
+.service-icon {
+  color: #b1bbc2;
+  margin-bottom: 10px;
+}
+
+.service-title {
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 1.5rem;
+  color: #b1bbc2;
+  margin-bottom: 1%;
+}
+
+.service-description {
+  font-family: 'Markazi Text', serif;
+  font-size: .8rem;
+  color: #b1bbc2;
+  margin-bottom: 0;
+}
+
+/* Gallery */
+.carousel-inner {
+  height: 35vw;
+  padding-right: 15px;
+  padding-left: 15px
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item-opacity {
+  background-color: #718a97;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel-caption {
+  padding-bottom: 0;
+}
+
+.carousel-item-title {
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 3vw;
+  color: #b1bbc2;
+  text-shadow:
+   -1px -1px 0 #1c4d4a,
+    1px -1px 0 #1c4d4a,
+    -1px 1px 0 #1c4d4a,
+     1px 1px 0 #1c4d4a;
+}
+
+.carousel-item-date {
+  font-family: 'Markazi Text', serif;
+  font-size: 1.3vw;
+  color: #1c4d4a;
+}
+
+/* Footer */
+.footer-container {
+  background-color: #b1bbc2;
+  padding: 5% 10% 2%;
+  text-align: left;
+}
+
+.contact-info {
+  font-family: 'Markazi Text', serif;
+  font-size: 1rem;
+  color: #1c4d4a;
+  vertical-align: text-top;
+}
+
+.contact-icon {
+  color: #1c4d4a;
+  padding-left: 3px;
+  padding-right: 7px;
+}
+
+.social-icons {
+  padding-bottom: 20px;
+}
+
+.social-icon {
+  color: #1c4d4a;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.social-icon:hover {
+  color: #3a3a39;
+}
+
+.copyright {
+  font-family: 'Markazi Text', serif;
+  font-size: .7rem;
+  color: #1c4d4a;
+}
