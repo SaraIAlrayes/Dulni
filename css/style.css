@@ -300,4 +300,13 @@ body {
   font-family: 'Markazi Text', serif;
   font-size: .7rem;
   color: #1c4d4a;
+  margin-bottom: 0;
+}
+
+.copyright-link {
+  color: #1c4d4a;
+}
+
+.copyright-link:hover {
+  color: #1c4d4a;
 }
