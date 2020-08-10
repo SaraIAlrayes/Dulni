@@ -110,26 +110,15 @@ body {
 
 .sub-title {
   font-family: 'Aref Ruqaa', serif;
-  font-size: 2vw;
+  font-size: 3vw;
   color: #b1bbc2;
 }
 
-/*.main-title {
-  font-family: 'Aref Ruqaa', serif;
-  font-weight: 700;
-  font-size: 5rem;
-  color: #1c4d4a;
-}
-
-.sub-title {
-  font-family: 'Aref Ruqaa', serif;
-  color: #d9cfc6;
-} */
 /* Statistics */
 .statistics-container {
   padding-right: 10%;
   padding-left: 10%;
-  margin-top: -5%;
+  margin-top: -7%;
 }
 
 .statistic-column {
@@ -153,13 +142,14 @@ body {
 
 .statistic-count {
   font-family: 'Markazi Text', serif;
-  font-size: 1.3rem;
+  font-size: 1em;
   color: #b1bbc2;
+  margin-bottom: 0;
 }
 
 .statistic-title {
   font-family: 'Markazi Text', serif;
-  font-size: 1.1rem;
+  font-size: 0.9em;
   color: #b1bbc2;
   margin-bottom: 0;
 }
@@ -168,13 +158,13 @@ body {
 .about-title {
   font-family: 'Aref Ruqaa', serif;
   font-weight: 700;
-  font-size: 2.6rem;
+  font-size: 2.3em;
   color: #1c4d4a;
 }
 
 .about-description {
   font-family: 'Markazi Text', serif;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   color: #b1bbc2;
   padding-right: 7%;
 }
@@ -206,14 +196,14 @@ body {
 
 .service-title {
   font-family: 'Aref Ruqaa', serif;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   color: #b1bbc2;
   margin-bottom: 1%;
 }
 
 .service-description {
   font-family: 'Markazi Text', serif;
-  font-size: .8rem;
+  font-size: .8em;
   color: #b1bbc2;
   margin-bottom: 0;
 }
@@ -227,6 +217,10 @@ body {
 
 .carousel-item {
   height: 100%;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+  display: block !important;
 }
 
 .carousel-item-opacity {
@@ -250,10 +244,10 @@ body {
   font-size: 3vw;
   color: #b1bbc2;
   text-shadow:
-   -1px -1px 0 #1c4d4a,
+    -1px -1px 0 #1c4d4a,
     1px -1px 0 #1c4d4a,
     -1px 1px 0 #1c4d4a,
-     1px 1px 0 #1c4d4a;
+    1px 1px 0 #1c4d4a;
 }
 
 .carousel-item-date {
@@ -271,7 +265,7 @@ body {
 
 .contact-info {
   font-family: 'Markazi Text', serif;
-  font-size: 1rem;
+  font-size: 1em;
   color: #1c4d4a;
   vertical-align: text-top;
 }
@@ -298,7 +292,7 @@ body {
 
 .copyright {
   font-family: 'Markazi Text', serif;
-  font-size: .7rem;
+  font-size: .7em;
   color: #1c4d4a;
   margin-bottom: 0;
 }
@@ -309,4 +303,11 @@ body {
 
 .copyright-link:hover {
   color: #1c4d4a;
+}
+
+/* Media Query */
+@media (max-width: 767px) {
+  .title-container {
+    padding-top: 80%;
+  }
 }
