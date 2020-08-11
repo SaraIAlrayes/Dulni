@@ -308,6 +308,6 @@ body {
 /* Media Query */
 @media (max-width: 767px) {
   .title-container {
-    padding-top: 80%;
+    padding-top: 90%;
   }
 }
